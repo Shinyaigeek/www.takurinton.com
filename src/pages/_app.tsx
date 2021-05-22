@@ -16,6 +16,7 @@ import '../styles/base.scss'
 
 const App = ({ Component, pageProps }) => {
   console.log('まりなしか勝たん');
+  console.log('https://github.com/takurinton/www.takurinton.com/pull/31#event-4779685450');
   const [modal, setModal] = useState<boolean>(false)
   const router = useRouter()
   if (process.browser) {
