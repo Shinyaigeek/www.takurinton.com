@@ -15,9 +15,11 @@ import '../styles/base.scss'
 // const pages = ['/', 'dairyreport', 'baka', 'kawaii', 'wiki']
 
 const App = ({ Component, pageProps }) => {
+  console.log('まりなしか勝たん');
   console.log('Shinyaigeek');
   console.log('かーずしかかたん');
   console.log('しゅんやしか勝たん');
+  
   const [modal, setModal] = useState<boolean>(false)
   const router = useRouter()
   if (process.browser) {
